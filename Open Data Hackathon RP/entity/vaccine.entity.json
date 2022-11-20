@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "atermon:vaccine",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/vaccine"
+			},
+			"geometry": {
+				"default": "geometry.vaccine"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#be4869",
+				"overlay_color": "#191af9"
+			}
+		}
+	}
+}

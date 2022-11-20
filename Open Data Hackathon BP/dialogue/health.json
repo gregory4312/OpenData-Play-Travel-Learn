@@ -1,0 +1,102 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "health1",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.health.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.health.default", "with": ["\n"] } ] },
+				"buttons": [
+					{"name": { "rawtext": [ { "translate": "dialogue.button.food" } ] },
+						"commands": [
+							"/dialogue open @e[tag=health] @a health2"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.allergy" } ] },
+						"commands": [
+							"/dialogue open @e[tag=health] @a health3"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.bites" } ] },
+						"commands": [
+							"/dialogue open @e[tag=health] @a health4"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.illness" } ] },
+						"commands": [
+							"/dialogue open @e[tag=health] @a health5"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.more" } ] },
+                        "url":"https://wwwnc.cdc.gov/travel"
+					}
+				],
+				"on_close_commands": [
+                    "/execute @a ~ ~ ~ function dialogue_change"
+				]
+			},
+            {
+                "scene_tag":"health2",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.health.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.health.food","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=health] @a health1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"health3",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.health.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.health.allergy","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=health] @a health1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"health4",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.health.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.health.bites","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=health] @a health1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"health5",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.health.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.health.illness","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=health] @a health1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            }
+        ]
+    }
+}

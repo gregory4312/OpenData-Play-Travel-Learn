@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mosquitos",
+		"description": "Mosquitos Behavior Pack",
+		"uuid": "56182b5a-75da-6a1d-d0e3-77331f5e16eb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Greg"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "3210d9df-f482-fa19-8336-9bd34d3123a8",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "bd79d3e5-27c5-8645-da8c-ba293e47abb6",
+			"version": [1, 0, 0]
+		}
+	]
+}

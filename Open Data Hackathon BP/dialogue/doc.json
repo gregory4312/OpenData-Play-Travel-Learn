@@ -1,0 +1,83 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "doc1",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.doc.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.doc.africa", "with": ["\n"] } ] },
+				"buttons": [
+					{"name": { "rawtext": [ { "translate": "dialogue.button.ok" } ] },
+						"commands": [
+							
+						]
+					}
+				],
+				"on_close_commands": [
+                    "/execute @a ~ ~ ~ function dialogue_change"
+				]
+			},
+            {
+                "scene_tag":"doc2",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.doc.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.doc.brazil","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+				"scene_tag": "doc3",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.doc.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.doc.dominic", "with": ["\n"] } ] },
+				"buttons": [
+					{"name": { "rawtext": [ { "translate": "dialogue.button.ok" } ] },
+						"commands": [
+
+                        ]
+					}
+				],
+				"on_close_commands": [
+                    "/execute @a ~ ~ ~ function dialogue_change"
+				]
+			},
+            {
+                "scene_tag":"doc4",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.doc.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.doc.china","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                            
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"doc5",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.doc.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.doc.india","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                            
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            }
+        ]
+    }
+}

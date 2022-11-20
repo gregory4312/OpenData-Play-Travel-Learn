@@ -1,0 +1,55 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "gps1",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.gps.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.gps.1", "with": ["\n"] } ] },
+				"buttons": [
+					
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.samerica" } ] },
+						"commands": [
+							"/tp @p 607 12 714"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.namerica" } ] },
+						"commands": [
+							"/tp @p 385 15 307"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.europe"} ] },
+						"commands": [
+							"/tp @p 1001 15 361"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.asia"} ] },
+						"commands": [
+							"/tp @p 1282 45 457"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.africa"} ] },
+						"commands": [
+							"/tp @p 950 10 595"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "dialogue.button.hub"} ] },
+						"commands": [
+							"/tp @p 703 39 470"
+						]
+					}
+				],
+				"on_close_commands": [
+				]
+			}
+		]
+	}
+}

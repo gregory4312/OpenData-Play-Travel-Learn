@@ -1,0 +1,63 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "mosq1",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.mosq.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.mosq.default", "with": ["\n"] } ] },
+				"buttons": [
+					{"name": { "rawtext": [ { "translate": "dialogue.button.malaria" } ] },
+						"commands": [
+							"/dialogue open @e[tag=mosq] @a mosq2"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.nile" } ] },
+                    "commands": [
+                            "/dialogue open @e[tag=mosq] @a mosq3"
+                    ]
+                    },
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.close" } ] },
+						"commands": [
+						]
+				    }
+				],
+				"on_close_commands": [
+                    "/execute @a ~ ~ ~ function dialogue_change"
+				]
+			},
+            {
+                "scene_tag":"mosq2",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.mosq.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.mosq.malaria","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=mosq] @a mosq1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"mosq3",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.mosq.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.mosq.nile","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=mosq] @a mosq1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            }
+        ]
+    }
+}

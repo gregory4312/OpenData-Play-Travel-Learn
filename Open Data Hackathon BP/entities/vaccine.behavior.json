@@ -1,0 +1,74 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "atermon:vaccine",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mosq:despawn":{
+				"minecraft:instant_despawn": {
+					"remove_child_entities": false
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": [
+								{
+								"test": "has_equipment",
+								"domain": "hand",
+								"subject": "other",
+								"value": "barrier"
+								}
+							],
+							"event": "mosq:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:npc": {
+				"npc_data": {
+					"portrait_offsets": {
+						"translate": [-7, 10, 0],
+           			    "scale": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"events": {
+			"mosq:despawn":{
+				"add": {
+					"component_groups": [
+						"mosq:despawn"
+					]
+				}
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mosquitos",
+		"description": "Mosquitos Resource Pack",
+		"uuid": "bd79d3e5-27c5-8645-da8c-ba293e47abb6",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Greg"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Mosquitos",
+			"type": "resources",
+			"uuid": "156b958d-c526-546b-dd70-f7c388a411b4",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "emergency1",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.emergency.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.emergency.default", "with": ["\n"] } ] },
+				"buttons": [
+					{"name": { "rawtext": [ { "translate": "dialogue.button.venezuela" } ] },
+						"commands": [
+							"/dialogue open @e[tag=emergency] @a emergency2"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.polio" } ] },
+						"commands": [
+							"/dialogue open @e[tag=emergency] @a emergency3"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.dengue" } ] },
+						"commands": [
+							"/dialogue open @e[tag=emergency] @a emergency4"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.more" } ] },
+                        "url":"https://wwwnc.cdc.gov/travel"
+					}
+				],
+				"on_close_commands": [
+                    "/execute @a ~ ~ ~ function dialogue_change"
+				]
+			},
+            {
+                "scene_tag":"emergency2",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.emergency.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.emergency.venezuela","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=emergency] @a emergency1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"emergency3",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.emergency.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.emergency.polio","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=emergency] @a emergency1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"emergency4",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.emergency.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.emergency.dengue","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=emergency] @a emergency1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            }
+        ]
+    }
+}

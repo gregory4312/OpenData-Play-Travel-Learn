@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "ATERMON - Open Data BP",
+		"description": "ATERMON - Open Data BP",
+		"uuid": "595c673a-f28e-435e-bb9c-a7a666122dc7",
+		"version": [0, 0, 1],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ATERMON"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.9", "1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [0, 0, 1],
+			"uuid": "9d304fcc-7d1e-43e5-afac-da1e7015b006",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c05ead83-9882-46f3-89f2-059cb55824bf",
+			"version": [0, 0, 1]
+		}
+	]
+}

@@ -1,0 +1,66 @@
+dialogue.doc.name=Doc
+dialogue.doc.africa=§cHealth Issues:§r%1%1§5Sun Exposure:§r Use broad-spectrum sunscreen with SPF>15 that protects against UVA and UVB radiation%1%1§5Malaria Prophylaxis:§rRead about this by clicking the cloud of mosquitos in a country%1%1§5Yellow Fever:§rGet informed about this through the Vaccination Helper%1%1§5Other risks:§rTsetse flies bites, Zika Virus, Dengue fever and animal bites.%1%1If you want to find out more click on the button below
+dialogue.doc.brazil=§cHealth Issues:§r%1%1§5Sun Exposure:§r Use broad-spectrum sunscreen with SPF>15 that protects against UVA and UVB radiation%1%1§5Malaria Prophylaxis:§rRead about this by clicking the cloud of mosquitos in a country%1%1§5Yellow Fever:§rGet informed about this through the Vaccination Helper%1%1§5Other risks:§rTsetse flies bites, Zika Virus, Dengue fever and animal bites.%1%1If you want to find out more click on the button below
+dialogue.doc.dominic=§cHealth Issues:§r%1%1§5Rabies:§r animal and human rabies are not uncommon there. You may need to consider getting pre-exposure rabies medication depending on your itinerary.%1%1§5Cholera:§r it was reintroduced in 2010 although areas where there's active transmission are developing.
+dialogue.doc.china=§cHealth Issues:§r%1%1§5Air Pollution:§r Caution needed for travelers with underlying cardiorespiratory diseases such as asthma, heart disease etc. N95/FFP2+ Masks are recommended.%1%1§5Other Issues:§r Polio (IPV), Hepatitis B, Japanese Encephalitis, Rabies, Malaria and Dengue are diseases endemic to china.
+dialogue.doc.india=§cHealth Issues:§r%1%1§5Hepatitis A:§r All travelers to india should be protected%1%1§5Typhoid:§r Getting a vaccine for typhoid is recommended as it is prevalent in South Asia%1%1§5Japanese Encephalitis:§r it is very common in many parts of the country and especially during monsoon season.
+
+dialogue.vac.name=Vaccination Helper
+dialogue.vac.africa=§cAvailable Vaccinations:§aYellow fever§r for anyone traveling to most sub-saharan countries. May be mandatory.%1%1§5Hepatitis A & B§r for anyone who could be exposed to body fluids%1%1§cTyphoid§r for adventurous eaters and those visiting the countryside
+dialogue.vac.brazil=§cAvailable Vaccinations:§5Hepatitis A & B§r for anyone who could be exposed to body fluids%1%1§cTyphoid§r for adventurous eaters and those visiting the countryside%1%1§aYellow Fever§r because of recent outbreaks
+dialogue.vac.dominic=§cAvailable Vaccinations:§5Hepatitis A & B§r for anyone who could be exposed to body fluids%1%1§cTyphoid§r for adventurous eaters and those staying with friends/family
+dialogue.vac.china=§cAvailable Vaccinations:§5Hepatitis B§r recommended for unvaccinated travelers%1%1§aJapanese Encephalitis§r for those who will stay for long periods of time and travel to JE Virus prone areas%1%1§cTyphoid§r for adventurous eaters and those staying with friends/family
+dialogue.vac.india=§cAvailable Vaccinations:§5Hepatitis A§r recommended for travelers older than 1 year old%1%1§aJapanese Encephalitis§r for travel in areas of active transmission. Avoid unsafe food and water%1%1§cCholera§r for travel in areas of active transmission. Avoid unsafe food and water
+
+dialogue.vac.default=Which vaccine do you want to learn more about?
+dialogue.vac.dengue=§aOrigin:%1%1§r Dengue outbreaks occur in many countries around the world. This virus is spread to people through the bite of an infected mosquito.%1%1§5Prevention:%1%1§rThese mosquitos are found in tropical & sub-tropical regions. A new vaccine is being developed and will be available by 2022.
+dialogue.vac.japanese=§aOrigin:%1%1§r The JE Virus is transmitted through infected mosquitos. It is most common in Asia and the western pacific.%1%1§5Prevention:§r%1%1The best way to prevent mosquitoborne diseases is to avoid bites. Moreover, there is a vaccine available since 2009.
+dialogue.vac.yellow=§aOrigin:%1%1§r The Yellow fever virus is found in tropical and subtropical areas of Africa and South America. It's transmitted through the bite of infected mosquitos.%1%1§5Prevention:§r%1%1To prevent getting sick from yellow fever, use insect repellent, wear long-sleeved shirts and long pants, and get vaccinated.
+
+dialogue.mosq.name=Mosquitoes
+dialogue.mosq.default=We're mosquitos, we love puddles of water and hate the cold. Click one of the topics below to get informed. 
+dialogue.mosq.malaria=§aOrigin:%1%1§rThis disease is transmitted from infected mosquitos, usually residing in sub-Saharan Africa and South Asia.%1%1§5Prevention:§r%1%1Malaria is preventable by either getting appropriate medicine from your doctor or avoiding mosquito bites alltogether:%1%1Appropriate Clothing (long sleeved shirts and pants)%1%1Bed Nets%1%1Mosquito Repellents (DEET, Picaridin, Oil of lemon eucalyptus, IR3535 and 2-undecanone)%1%1Planning your travel itinerary carefully
+dialogue.mosq.nile=§aOrigin:%1%1§rThis disease appears all over the world and is transmitted from infected mosquitos during the Summer and early Fall months.§r%1%1§5Prevention:§r%1%West Nile virus is preventable by avoiding mosquito bites alltogether:%1%1Appropriate Clothing (long sleeved shirts and pants)%1%1Bed Nets%1%1Mosquito Repellents (DEET, Picaridin, Oil of lemon eucalyptus, IR3535 and 2-undecanone)%1%1Planning your travel itinerary carefully
+
+dialogue.emergency.name=Health Worker
+dialogue.emergency.default=Hey, there are some emergencies around the world right now. Click one of the buttons below to find out more:
+dialogue.emergency.venezuela=§cWarning Level 3%1%1§rThere is currently a Health Infrastructure Breakdown in Venezuela.%1%1During the past years there have been multiple cases of measles, diptheria and malaria.%1%1Nonessential Travel to Venezuela is recommended to be avoided.
+dialogue.emergency.polio=§6Alert Level 2%1%1§rThere have been recent outbreaks of poliovirus all around the world. It is recommended to be up to date on your polio vaccines (IPV). These countries have confirmed poliovirus cases:%1%1Sub-Saharan and Central Africa%1%1Afghanistan%1%1Pakistan%1%1Madagascar%1%1Ukraine%1%1United Kingdom
+dialogue.emergency.dengue=§aWatch Level 1%1%1§rDengue risk is currently high in both Africa and the Middle East. It is highly recommended to make use of Registered Mosquito Repellents and of all measures to prevent mosquito bites.
+
+dialogue.health.name=Public Health Nurse
+dialogue.health.default=Hi, I'm a Public Health Nurse, click one of the topics below to get informed regarding your travel!
+dialogue.health.food=Contaminated food or drinks can cause serious diseases that may disrupt your travel.%1%1§aSteaming hot food is usually safe to eat! §rHigh heat kills most germs%1%1§aDry or packaged foods are safe to consume%1%1§cRaw foods are dangerous.§r Fruit and vegetables may need to be peeled and/or washed with clean water. Be careful with fresh salads and raw meat or seafood%1%1§cTap water may be unsafe.§r This means that you should also avoid ice cubes as they were made from tap water.
+dialogue.health.allergy=Pay extra attention if you have an allergy on your travels. Especially make sure to pack allergy medicines such as inhalers and epinephrine which you can get prescribed by your doctor.%1%1Moreover, you can get cards listing your food allergies and have them translated in the local language.
+dialogue.health.bites=§cBug bites§r are preventable by avoiding mosquito bites alltogether:%1%1Appropriate Clothing (long sleeved shirts and pants)%1%1Bed Nets%1%1Mosquito Repellents (DEET, Picaridin, IR3535 and 2-undecanone)%1%1Planning your travel itinerary carefully
+dialogue.health.illness=If you or a fellow traveler have any undergoing chronic illnesses or disabilities please consult your doctor before travel.%1%1In some cases it is recommended to seek pretravel consultation > 4-6 weeks in order to ensure adequate time for medication to work.%1%1Always carry adequate prescription medication lasting more than your planned trip.%1%1Make sure to pack labeled containers for prescription medication.
+
+dialogue.gps.name=GPS
+dialogue.gps.1=Where would you like to go?
+
+dialogue.button.dengue=Dengue
+dialogue.button.japanese=J. Encephalitis
+dialogue.button.yellow=Yellow Fever
+
+dialogue.button.samerica=South America
+dialogue.button.namerica=North America
+dialogue.button.europe=Europe
+dialogue.button.asia=Asia
+dialogue.button.africa=Africa
+
+dialogue.button.malaria=Malaria
+dialogue.button.nile=West Nile
+
+dialogue.button.venezuela=Venezuela
+dialogue.button.polio=Polio
+
+dialogue.button.food=Food & Drink
+dialogue.button.allergy=Allergies
+dialogue.button.bites=Bug Bites
+dialogue.button.illness=Illness
+dialogue.button.more=Learn more!
+
+dialogue.button.ok=Ok
+dialogue.button.previous=Previous
+dialogue.button.hub=Hub
+dialogue.button.close=Close

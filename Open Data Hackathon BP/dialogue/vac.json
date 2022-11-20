@@ -1,0 +1,149 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "vac1",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.vac.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.vac.default", "with": ["\n"] } ] },
+				"buttons": [
+					{"name": { "rawtext": [ { "translate": "dialogue.button.dengue" } ] },
+						"commands": [
+							"/dialogue open @e[tag=vac] @a vac2"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.japanese" } ] },
+						"commands": [
+							"/dialogue open @e[tag=vac] @a vac3"
+						]
+					},
+                    {"name": { "rawtext": [ { "translate": "dialogue.button.dengue" } ] },
+						"commands": [
+							"/dialogue open @e[tag=vac] @a vac2"
+						]
+					}
+				],
+				"on_close_commands": [
+                    "/execute @a ~ ~ ~ function dialogue_change"
+				]
+			},
+            {
+                "scene_tag":"vac2",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.vac.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.vac.dengue","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=vac] @a vac1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+				"scene_tag": "vac3",
+				"npc_name": { "rawtext": [ { "translate": "dialogue.vac.name" } ] },
+				"text": { "rawtext": [ { "translate": "dialogue.vac.japanese", "with": ["\n"] } ] },
+				"buttons": [
+					{"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=vac] @a vac1"
+                        ]
+                    }
+				],
+				"on_close_commands": [
+                    "/execute @a ~ ~ ~ function dialogue_change"
+				]
+			},
+            {
+                "scene_tag":"vac4",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.vac.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.vac.yellow","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.previous"}]},
+                        "commands":[
+                            "/dialogue open @e[tag=vac] @a vac1"
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"vac5",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.vac.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.vac.africa","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"vac6",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.vac.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.vac.brazil","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"vac7",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.vac.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.vac.dominic","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"vac8",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.vac.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.vac.china","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            },
+            {
+                "scene_tag":"vac9",
+                "npc_name": { "rawtext":[ {"translate":"dialogue.vac.name"}]},
+                "text": { "rawtext": [ { "translate": "dialogue.vac.india","with":["\n"]}]},
+                "buttons":[
+                    {"name":{"rawtext":[{"translate":"dialogue.button.ok"}]},
+                        "commands":[
+                        ]
+                    }
+                ],
+                "on_close_commands":[
+                    "/execute @a ~ ~ ~ function dialogue_change"
+                ]
+            }
+        ]
+    }
+}

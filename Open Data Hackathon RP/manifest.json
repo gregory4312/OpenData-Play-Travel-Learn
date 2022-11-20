@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "ATERMON - Open Data RP",
+		"name": "ATERMON - Open Data RP",
+		"uuid": "c05ead83-9882-46f3-89f2-059cb55824bf",
+		"version": [0, 0, 1],
+		"min_engine_version": [1, 14, 70]
+	},
+	"modules": [
+		{
+			"description": "ATERMON - Open Data Hackathon",
+			"type": "resources",
+			"uuid": "c2eb65c7-079a-41cb-9327-1625e5bf9df4",
+			"version": [0, 0, 1]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	}
+}

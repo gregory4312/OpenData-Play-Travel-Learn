@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "atermon:doc",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/doc"
+			},
+			"geometry": {
+				"default": "geometry.doc"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#fade47",
+				"overlay_color": "#4ce569"
+			}
+		}
+	}
+}
